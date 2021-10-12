@@ -219,7 +219,7 @@ async def encod(event):
         # if (user.id) not in pp:
         #    return await xxx.edit(
         #        "U Must Subscribe This Channel To Use This Bot",
-        #       buttons=[Button.url("JOIN CHANNEL", url="@dondkdl")],
+        #       buttons=[Button.url("JOIN CHANNEL", url="@dondkdjm")],
         #   )
         if len(COUNT) > 4 and user.id != OWNER:
             llink = (await event.client(cl(LOG))).link
