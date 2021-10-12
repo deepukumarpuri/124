@@ -213,7 +213,7 @@ async def encod(event):
             pass
         xxx = await event.reply("`Downloading...`\nJoin My Update Channel :- @DKBOTZ")
         """ For Force Subscribe Channel"""
-         pp = []
+       #  pp = []
          async for x in event.client.iter_participants("@dondkdl"):
            pp.append(x.id)
         if (user.id) not in pp:
